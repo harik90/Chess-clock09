@@ -22,7 +22,7 @@ A simple, smooth, and optimized Chess Clock application for Android devices. Con
 
 | 🏠 Home Screen | 🎨 Color Choose | ⏱️ Adjust Time |
 |---------------|----------------|----------------|
-| ![Home](Screenshots/home.png) | ![Color Choose](Screenshot/colorChoose.png) | ![Adjust Time](Screenshots/timeadjest.png) |
+| ![Home](Screenshot/home.png) | ![Color Choose](Screenshot/colorChoose.png) | ![Adjust Time](Screenshot/timeadjest.png) |
 
 ---
 
