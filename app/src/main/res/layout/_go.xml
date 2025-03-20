@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/_shap"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialogDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="monospace"
+        android:text="This is a custom dialog description."
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/btnLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right|center"
+        android:paddingHorizontal="20dp" >
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/_shap"
+            android:fontFamily="monospace"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btnAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/_shap"
+            android:fontFamily="monospace"
+            android:paddingHorizontal="20dp"
+            android:text="@string/ok"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

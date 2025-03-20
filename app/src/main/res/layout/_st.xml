@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_shap"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:drawablePadding="8dp"
+        android:fontFamily="monospace"
+        android:paddingHorizontal="20dp"
+        android:text="@string/adjest_time"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/Layinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/hour_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/_shap"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:hint="00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorGray"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hour_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/hour"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/minute_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/_shap"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:hint="10"
+				android:text="10"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorGray"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/minute_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/minutes"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/second_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/_shap"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:hint="00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorGray"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/second_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/second"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Layinput"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/_shap"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/minute_label"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/_shap"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:text="@string/save_time"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

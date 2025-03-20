@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Chess Timer</string>
+    <string name="p2_move">P2 Moves : 0</string>
+    <string name="p1_move">P1 Moves : 0</string>
+    <string name="adjest_time">Adjest Time</string>
+    <string name="hour">Hour</string>
+    <string name="minutes">Minute</string>
+    <string name="second">Second</string>
+    <string name="save_time">Set Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="color_choose">Choose color</string>
+
+</resources>
