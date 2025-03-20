@@ -41,7 +41,7 @@ A simple, smooth, and optimized Chess Clock application for Android devices. Con
 ---
 
 ## 📥 Download APK
-👉 [Download Latest Version](https://github.com/harik90/Chess-clock09/Chess Timer.apk)
+👉 [Download Latest Version](https://github.com/harik90/Chess-clock09/ChessClock.apk)
 
 ---
 
