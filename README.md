@@ -51,7 +51,7 @@ A simple, smooth, and optimized Chess Clock application for Android devices. Con
 ---
 
 ## 👨‍💻 Developer
-**Harik Gond**  
+**ANON**  
 [GitHub](https://github.com/harik90)
 
 ---
